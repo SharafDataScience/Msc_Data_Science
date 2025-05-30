@@ -27,7 +27,7 @@ The project utilizes the "COVID19 Healthy Diet Dataset" from Kaggle, which conta
 • Country identifiers
 
 • Consumption metrics for various food categories: Animal Products, Animal Fats, Cereals (excluding beer), Eggs, Fish & Seafood, Fruits (excluding wine), Meat, Milk (excluding butter), Miscellaneous Items, Offals, Oilcrops, Pulses, Spices, Starchy Roots, Stimulants, Sugar & Sweeteners, Treenuts, Vegetal Products, and Vegetable Oils (2020)
-Kaggle link: https://www.kaggle.com/datasets/mariaren/covid19-healthy-diet-dataset
+
 
 • Case Fatality Rate (2021) as the target variable 
 
@@ -128,9 +128,7 @@ To move beyond correlation and better explore causal relationships, future resea
 
 ## References
 
-• World Health Organization (WHO) COVID-19 statistics
-
-• Kaggle COVID19 Healthy Diet Dataset
+• Kaggle COVID19 Healthy Diet Dataset ( Kaggle link: https://www.kaggle.com/datasets/mariaren/covid19-healthy-diet-dataset )
 
 • Statistical methods: Spearman correlation, Kendall's Tau, Principal Component Analysis
 
