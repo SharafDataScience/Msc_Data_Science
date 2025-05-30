@@ -72,7 +72,7 @@ The data science component builds upon the insights from the data analysis to de
 
 5. Explainable AI: Application of LIME (Local Interpretable Model-agnostic Explanations) to provide interpretable insights into model predictions, particularly for high and low mortality countries.
 
-Key Findings
+## Key Findings
 
 The analysis revealed several significant findings regarding the relationship between nutritional factors and COVID-19 mortality:
 
