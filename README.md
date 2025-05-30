@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This research project investigates the relationship between national nutrition patterns and COVID-19 mortality rates across different countries. Developed by Abdullah Sharaf under the supervision of Dr. Alma Rahat during doing MSc Data Science 2023-2034 at Swansea University, this project (Version 0.1 CovidAI) combines data analysis techniques with machine learning approaches using also exaplinable AI to identify significant nutritional factors that may influence COVID-19 case fatality rates.
+This research project investigates the relationship between national nutrition patterns and COVID-19 mortality rates across different countries. Developed by Abdullah Sharaf under the supervision of Dr. Alma Rahat during doing MSc Data Science 2023-2034(start August 2023-End Octber 2023) at Swansea University, this project (Version 0.1 CovidAI) combines data analysis techniques with machine learning approaches using also exaplinable AI to identify significant nutritional factors that may influence COVID-19 case fatality rates.
 
 The COVID-19 pandemic has severely impacted over 200 countries worldwide, evolving into both a major healthcare industry concern and a public health emergency. According to the World Health Organization, COVID-19 has caused over 7 million deaths globally, representing approximately 0.09% of the world's 8 billion population. This staggering figure underscores the devastating impact of the pandemic on human life and highlights the urgent need for research into factors that may influence mortality rates.
 
@@ -68,9 +68,76 @@ The data science component builds upon the insights from the data analysis to de
      - Gradient Boosting Regressor (GBR)
      - Multi-Layer Perceptron Regressor (MLP)
 
-
-
 5. Explainable AI: Application of LIME (Local Interpretable Model-agnostic Explanations) to provide interpretable insights into model predictions, particularly for high and low mortality countries.
+
+Key Findings
+
+The analysis revealed several significant findings regarding the relationship between nutritional factors and COVID-19 mortality:
+
+1. Significant Correlations: The project identified statistically significant correlations between certain nutritional factors and COVID-19 case fatality rates. Specifically, higher consumption of animal products and milk (excluding butter) showed positive correlations with increased mortality rates (Spearman correlation coefficients of 0.614 and 0.644 respectively, with p-values < 0.01).
+
+2. Negative Correlations: Conversely, higher consumption of vegetal products demonstrated a negative correlation with mortality rates (Spearman correlation coefficient of -0.614, p-value < 0.01), suggesting a potential protective effect.
+
+3. Hypothesis Testing: Based on these findings, the null hypothesis (H₀: Nutrition does not influence COVID-19 case mortality rates) was rejected in favor of the alternative hypothesis (H₁: Nutrition influences COVID-19 case mortality rates) with a 99% confidence interval.
+
+4. Model Performance: The Polynomial Linear Regression model demonstrated the best performance among the tested models by 0.57 R2,0.78 correlation coefficient, capturing the non-linear relationships between nutritional factors and mortality rates.
+
+5. Explainable AI Insights: LIME analysis provided interpretable explanations for model predictions, highlighting the differential impact of nutritional factors in countries with high versus low mortality rates and show prove od data analysis key finding.
+
+
+## Recommendations
+
+Based on the project findings, the following recommendations are proposed:
+
+1. Dietary Guidelines: Promote a balanced diet with sufficient plant-based foods to potentially reduce health risks associated with COVID-19 and similar respiratory diseases.
+
+2. Early Intervention: Encourage behavioral change starting from an early age, particularly in primary schools, to support the development of long-term healthy eating habits.
+
+3. Public Health Strategies: Incorporate nutritional considerations into public health decision-making strategies related to pandemic preparedness and response using polynomial regression model.
+
+## Installation and Usage
+
+To run the notebooks in this repository, you'll need the following dependencies:
+- pip install numpy pandas matplotlib seaborn scikit-learn scipy yellowbrick plotly lime
+
+### To use the notebooks:
+
+1. Clone this repository
+
+2. Ensure you have the required dependencies installed
+
+3. Download the COVID19 Healthy Diet Dataset I provided here.
+
+4.Run the notebooks in the following order:
+
+• Nutrition_KG(DataAnalysis).ipynb for exploratory analysis
+
+• Nutrition_KG(Data_Science).ipynb for machine learning models
+
+## Future Work
+Potential extensions and improvements for this project include:
+
+1. Incorporating Additional Datasets:
+Expanding the analysis by integrating more comprehensive datasets that contain detailed nutritional information. This would enhance the accuracy and depth of the findings.
+
+2. Transitioning from a Cross-Sectional to a Longitudinal Study:
+To move beyond correlation and better explore causal relationships, future research could adopt a longitudinal study design. By applying a multilevel modeling approach—accounting for patients nested within hospitals and regions—it would be possible to capture temporal dynamics and hierarchical structures, leading to more robust and insightful conclusions.
+
+## References
+
+• World Health Organization (WHO) COVID-19 statistics
+
+• Kaggle COVID19 Healthy Diet Dataset
+
+• Statistical methods: Spearman correlation, Kendall's Tau, Principal Component Analysis
+
+• Machine Learning: Linear Regression, Polynomial Regression, LIME for explainable AI
+
+## Author
+
+Abdullah Sharaf, under the supervision of Dr. Alma Rahat
+
+
 
 
 
