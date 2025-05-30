@@ -2,6 +2,8 @@
 
 ## Project Overview
 
+This project focuses on the relationship between nutrition and the COVID-19 case death rate, which is one of the four domains explored in the broader study. 
+
 This research project investigates the relationship between national nutrition patterns and COVID-19 mortality rates across different countries. Developed by Abdullah Sharaf under the supervision of Dr. Alma Rahat during doing MSc Data Science 2023-2034(start August 2023-End Octber 2023) at Swansea University, this project (Version 0.1 CovidAI) combines data analysis techniques with machine learning approaches using also exaplinable AI to identify significant nutritional factors that may influence COVID-19 case fatality rates.
 
 The COVID-19 pandemic has severely impacted over 200 countries worldwide, evolving into both a major healthcare industry concern and a public health emergency. According to the World Health Organization, COVID-19 has caused over 7 million deaths globally, representing approximately 0.09% of the world's 8 billion population. This staggering figure underscores the devastating impact of the pandemic on human life and highlights the urgent need for research into factors that may influence mortality rates.
