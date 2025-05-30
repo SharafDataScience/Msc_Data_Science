@@ -28,7 +28,7 @@ The project utilizes the "COVID19 Healthy Diet Dataset" from Kaggle, which conta
 
 • Consumption metrics for various food categories: Animal Products, Animal Fats, Cereals (excluding beer), Eggs, Fish & Seafood, Fruits (excluding wine), Meat, Milk (excluding butter), Miscellaneous Items, Offals, Oilcrops, Pulses, Spices, Starchy Roots, Stimulants, Sugar & Sweeteners, Treenuts, Vegetal Products, and Vegetable Oils (2020)
 
-•Case Fatality Rate (2021) as the target variable 
+• Case Fatality Rate (2021) as the target variable 
 
 ## Methodology
 
@@ -110,11 +110,11 @@ To run the notebooks in this repository, you'll need the following dependencies:
 
 3. Download the COVID19 Healthy Diet Dataset I provided here.
 
-4.Run the notebooks in the following order:
+4. Run the notebooks in the following order:
 
-• Nutrition_KG(DataAnalysis).ipynb for exploratory analysis
+   • Nutrition_KG(DataAnalysis).ipynb for exploratory analysis
 
-• Nutrition_KG(Data_Science).ipynb for machine learning models
+   • Nutrition_KG(Data_Science).ipynb for machine learning models
 
 ## Future Work
 Potential extensions and improvements for this project include:
@@ -137,7 +137,8 @@ To move beyond correlation and better explore causal relationships, future resea
 
 ## Author
 
-Abdullah Sharaf, under the supervision of Dr. Alma Rahat
+Abdullah Sharaf, under the supervision of Dr. Alma Rahat 
+@ 2023-2024
 
 
 
