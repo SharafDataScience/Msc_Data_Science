@@ -130,7 +130,7 @@ To move beyond correlation and better explore causal relationships, future resea
 
 • Kaggle COVID19 Healthy Diet Dataset ( Kaggle link: https://www.kaggle.com/datasets/mariaren/covid19-healthy-diet-dataset )
 
-• A.Sharaf(2024) Predicting COVID-19 Mortality Using Machine Learning and Regression Analysis Based on Multiple Health- ResaerchGate, DOI: 10.13140/RG.2.2.27025.95844/1
+• A.Sharaf(2024) Predicting COVID-19 Mortality Using Machine Learning and Regression Analysis Based on Multiple Health- ResaerchGate, 10.13140/RG.2.2.27025.95844/1 
 
 ## Author
 
