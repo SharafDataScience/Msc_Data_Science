@@ -18,5 +18,15 @@ This repository is organized into three main components:
 
 3. Project Presentation (Nutrition-presentation.pdf): A comprehensive presentation summarizing the project methodology, key findings, and recommendations.
 
+- Dataset Information
+
+The project utilizes the "COVID19 Healthy Diet Dataset" from Kaggle, which contains nutritional consumption data across different countries alongside COVID-19 case fatality rates. The dataset includes the following features:
+
+• Country identifiers
+
+• Consumption metrics for various food categories: Animal Products, Animal Fats, Cereals (excluding beer), Eggs, Fish & Seafood, Fruits (excluding wine), Meat, Milk (excluding butter), Miscellaneous Items, Offals, Oilcrops, Pulses, Spices, Starchy Roots, Stimulants, Sugar & Sweeteners, Treenuts, Vegetal Products, and Vegetable Oils (2020)
+
+•Case Fatality Rate (2021) as the target variable
+
 
 
